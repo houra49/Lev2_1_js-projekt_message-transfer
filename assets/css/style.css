@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body{
+    margin: 0;
+    background-color: rgb(23, 153, 153);
+    height: 80vh;
+}
+section{
+    border: rgb(184, 189, 190) solid 1px;
+    border-radius:30px;
+    width: 60vw;
+    height: 80vh;
+    margin:5% auto;
+    background-color: rgb(184, 189, 190);
+    display:grid;
+    place-items: center;
+}
+#welche{
+    width:70%;
+    text-align: center;
+    font-size:2.5em;
+    font-family: 'Roboto Mono', monospace;
+    justify-self: center;
+}
+#text{
+    width:55vw;
+    padding:5px 0;
+    border:grey solid 1px;
+    border-radius: 5px;
+}
+#button{
+    width:15vw;
+    padding:15px 0;
+    border:grey solid 1px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+#nachricht{
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    align-self: flex-start;
+    margin:0;
+}
+#letzte{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+    align-self: flex-start;
+}
+#frage{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+    align-self: flex-start;
+}
